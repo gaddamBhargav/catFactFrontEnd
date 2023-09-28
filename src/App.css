@@ -1,0 +1,28 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.app {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.info,
+.history {
+  width: 40%;
+}
+.history {
+  text-align: justify;
+}
+.history ul {
+  text-align: left;
+}
+.buttons-wrapper {
+  display: flex;
+  align-items: center;
+}
+.btn {
+  margin: 1em;
+}
